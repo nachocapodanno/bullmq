@@ -1,6 +1,6 @@
-# PokéBull - A Simple Concurrency Test with Node.js and BullMQ
+# PokeBull - A Simple Concurrency Test with Node.js and BullMQ
 
-PokéBull is a Node.js application that tests concurrency by calling the Pokemon API using [BullMQ](https://github.com/taskforcesh/bullmq), a Redis-backed job queue.
+PokeBull is a Node.js application that tests concurrency by calling the Pokemon API using [BullMQ](https://github.com/taskforcesh/bullmq), a Redis-backed job queue.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ PokéBull is a Node.js application that tests concurrency by calling the Pokemon
 
 ## Introduction
 
-PokéBull is a simple application designed to test concurrency with Node.js and BullMQ. It calls the Pokemon API to retrieve information about a random Pokemon and uses BullMQ to execute multiple API calls in parallel.
+PokeBull is a simple application designed to test concurrency with Node.js and BullMQ. It calls the Pokemon API to retrieve information about a random Pokemon and uses BullMQ to execute multiple API calls in parallel.
 
 This project is ideal for those who want to learn about concurrency with Node.js and BullMQ, as well as those who want to see a practical example of how to use a job queue.
 
