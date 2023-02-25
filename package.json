@@ -1,0 +1,19 @@
+{
+  "name": "bullmq",
+  "version": "1.0.0",
+  "description": "A BullMQ experiment project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bullmq"
+  ],
+  "author": "Ignacio Capodanno",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^3.8.0",
+    "ioredis": "^5.3.1"
+  }
+}
