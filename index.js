@@ -28,6 +28,12 @@ await todoQueue.add('select pokemon', { name: 'pikachu' });
 await todoQueue.add('select pokemon', { name: 'charmander' });
 await todoQueue.add('select pokemon', { name: 'bulbasaur' });
 await todoQueue.add('select pokemon', { name: 'squirtle' });
+await todoQueue.add('select pokemon', { name: 'psyduck' });
+await todoQueue.add('select pokemon', { name: 'raichu' });
+await todoQueue.add('select pokemon', { name: 'squirtle' });
+await todoQueue.add('select pokemon', { name: 'snorlax' });
+await todoQueue.add('select pokemon', { name: 'slowpoke' });
+await todoQueue.add('select pokemon', { name: 'gastly' });
 
 // Worker events
 worker.on('completed', (job) => {
